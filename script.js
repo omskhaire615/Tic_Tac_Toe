@@ -66,6 +66,9 @@ const checkwinner = () => {
                 console.log("winner", posval1);
                 showwiner(posval1);
             }
+            else if(posval1 !== posval2 && posval2 !== posval3){
+                msg.innerText = "game is Dreaw";
+            }
         }
     }
 
